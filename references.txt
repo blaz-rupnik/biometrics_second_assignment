@@ -1,0 +1,2 @@
+video detector initial reference:
+https://stackoverflow.com/questions/64411652/are-there-any-haar-cascades-for-detecting-left-ear-and-right-ear-in-opencv
