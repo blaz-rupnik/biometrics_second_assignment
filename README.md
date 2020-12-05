@@ -1,2 +1,2 @@
 # biometrics_second_assignment
-Ear recognition with CNN
+Ear recognition with Viola-Jones detector
