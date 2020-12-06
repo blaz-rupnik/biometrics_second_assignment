@@ -24,3 +24,29 @@ Scale Factor: 1.5, Min neighbors: 4, Average IOC: 0.022, Average number of detec
 Scale Factor: 1.5, Min neighbors: 5, Average IOC: 0.024, Average number of detections: 2.14, Time Elapsed: 37.33
 Scale Factor: 1.5, Min neighbors: 6, Average IOC: 0.02, Average number of detections: 1.66, Time Elapsed: 36.98
 
+RESULTS FOR: otsedom (2 cascades, one for each ear) 
+Scale Factor: 1.1, Min neighbors: 3, Average IOC: 0.013, Average number of detections: 0.34, Time Elapsed: 37.68
+Scale Factor: 1.1, Min neighbors: 4, Average IOC: 0.014, Average number of detections: 0.28, Time Elapsed: 37.36
+Scale Factor: 1.1, Min neighbors: 5, Average IOC: 0.014, Average number of detections: 0.28, Time Elapsed: 38.76
+Scale Factor: 1.1, Min neighbors: 6, Average IOC: 0.014, Average number of detections: 0.26, Time Elapsed: 38.49
+
+Scale Factor: 1.2, Min neighbors: 3, Average IOC: 0.011, Average number of detections: 0.24, Time Elapsed: 39.5
+Scale Factor: 1.2, Min neighbors: 4, Average IOC: 0.008, Average number of detections: 0.2, Time Elapsed: 36.83
+Scale Factor: 1.2, Min neighbors: 5, Average IOC: 0.004, Average number of detections: 0.18, Time Elapsed: 36.74
+Scale Factor: 1.2, Min neighbors: 6, Average IOC: 0.001, Average number of detections: 0.14, Time Elapsed: 36.24
+
+Scale Factor: 1.3, Min neighbors: 3, Average IOC: 0.006, Average number of detections: 0.14, Time Elapsed: 36.32
+Scale Factor: 1.3, Min neighbors: 4, Average IOC: 0.003, Average number of detections: 0.12, Time Elapsed: 37.45
+Scale Factor: 1.3, Min neighbors: 5, Average IOC: 0.0, Average number of detections: 0.08, Time Elapsed: 36.51
+Scale Factor: 1.3, Min neighbors: 6, Average IOC: 0.0, Average number of detections: 0.04, Time Elapsed: 40.62
+
+Scale Factor: 1.4, Min neighbors: 3, Average IOC: 0.01, Average number of detections: 0.18, Time Elapsed: 42.17
+Scale Factor: 1.4, Min neighbors: 4, Average IOC: 0.004, Average number of detections: 0.12, Time Elapsed: 38.65
+Scale Factor: 1.4, Min neighbors: 5, Average IOC: 0.0, Average number of detections: 0.08, Time Elapsed: 39.06
+Scale Factor: 1.4, Min neighbors: 6, Average IOC: 0.0, Average number of detections: 0.06, Time Elapsed: 38.16
+
+Scale Factor: 1.5, Min neighbors: 3, Average IOC: 0.001, Average number of detections: 0.1, Time Elapsed: 34.99
+Scale Factor: 1.5, Min neighbors: 4, Average IOC: 0.0, Average number of detections: 0.06, Time Elapsed: 34.5
+Scale Factor: 1.5, Min neighbors: 5, Average IOC: 0.0, Average number of detections: 0.06, Time Elapsed: 35.19
+Scale Factor: 1.5, Min neighbors: 6, Average IOC: 0.0, Average number of detections: 0.06, Time Elapsed: 35.77
+

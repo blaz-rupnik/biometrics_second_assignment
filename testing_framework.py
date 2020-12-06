@@ -2,11 +2,12 @@ import cv2, sys, os, time, numpy as np
 from iou_calculator import ioc_calculator
 from helpers import detect, set_detections
 
-classifier = cv2.CascadeClassifier(f"cascades/{sys.argv[1]}")
+classifier_left = cv2.CascadeClassifier("cascades/haarcascade_leftear_otsedom.xml")
+classifier_right = cv2.CascadeClassifier("cascades/haarcascade_leftear_otsedom.xml")
 image_paths = os.listdir("images")
 number_of_inputs = float(len(image_paths))
 results_file = open("results.txt", "a")
-results_file.write(f"RESULTS FOR: {sys.argv[1]} \n")
+results_file.write("RESULTS FOR: otsedom (2 cascades, one for each ear) \n")
 
 # parameters for detections
 scale_factors = [1.1,1.2,1.3,1.4,1.5]
@@ -20,7 +21,10 @@ for scale_factor in scale_factors:
         for image_path in image_paths:
             # read image and get detections
             img = cv2.imread(f"images/{image_path}")
-            detections = detect(img, classifier, scale_factor, min_neighbor)
+            detections_left = detect(img, classifier_left, scale_factor, min_neighbor)
+            detections_right = detect(img, classifier_right, scale_factor, min_neighbor)
+            # merge detections since we use more cascades
+            detections = np.concatenate((detections_left, detections_right))
             
             # initialize img arrays for IOU calculation
             image_annotation = np.zeros((len(img), len(img[0])), dtype=bool)
