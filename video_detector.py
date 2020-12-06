@@ -10,7 +10,7 @@ while 1:
 
     # grayscale
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    ear = cascade_ear.detectMultiScale(gray, 1.3, 5)
+    ear = cascade_ear.detectMultiScale(gray, 1.3, 10)
 
     for (x, y, w, h) in ear:
         cv2.rectangle(img, (x,y), (x+w,y+h), (255,0,0), 3)
